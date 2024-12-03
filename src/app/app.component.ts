@@ -6,11 +6,10 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 
 
 @Component({
-  selector: 'mer-root',
-  standalone: true,
-  imports: [MatButtonModule, MatIconModule, MatToolbarModule, RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+    selector: 'mer-root',
+    imports: [MatButtonModule, MatIconModule, MatToolbarModule, RouterOutlet],
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.scss'
 })
 export class AppComponent {
 }
